@@ -142,7 +142,7 @@ class Convert:
                     n = int(number)%100
                     number_ = numbers_less_than_100(int(n))
                 n = int(number)%100
-                bigger_number = data[str(int(number) - n)]
+                bigger_number = data[str(int(number) - n)+"f"]
 
                 return f"{bigger_number} {and_word} {number_}"
 
