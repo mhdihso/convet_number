@@ -3,10 +3,10 @@ from setuptools import setup
 setup(
     name='convert',
     version='0.1.2',    
-    description='A example Python package',
-    url='https://github.com/shuds13/pyexample',
-    author='Stephen Hudson',
-    author_email='shudson@anl.gov',
+    description='A persian Convert number Python package',
+    url='https://github.com/mhdihso/convet_number',
+    author='Mehdi Hoseyni',
+    author_email='mahdihos38@gmail.com',
     license='BSD 2-clause',
     packages=['convert'],
 
