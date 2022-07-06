@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='convert',
-    version='0.1.0',    
+    version='0.1.1',    
     description='A example Python package',
     url='https://github.com/shuds13/pyexample',
     author='Stephen Hudson',
