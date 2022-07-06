@@ -126,7 +126,7 @@ class Convert:
 
         
     def convert_number(self):
-        if int(self) >= 999:
+        if int(self) > 999:
             return None
         str_number = str()
         try:
