@@ -116,7 +116,7 @@ def numbers_less_than_100(number):
     else:
         number = int(number)
         mod = number % 10 
-        return data[f"{number - mod}f"] + and_word + data[str(number % 10)]
+        return data[f"{number - mod}f"] + " " + and_word + " " + data[str(number % 10)]
 
 
 class Convert:
@@ -126,6 +126,8 @@ class Convert:
 
         
     def convert_number(self):
+        if int(self) >= 999:
+            return None
         str_number = str()
         try:
             number = str(self)
